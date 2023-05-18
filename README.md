@@ -5,8 +5,8 @@ el programador puede decidir cuando se suspende y se reanuda.
 
 2. ¿Cuál es la importancia de la suspensión en las coroutines y cómo se
 implementa?
-La suspension permite el hilo que estaba siendo utilizado se libera para que otras acciones puedan utilizarlo. Son implementadas 
-
+La suspension permite el hilo que estaba siendo utilizado se libera para que otras acciones puedan utilizarlo. Para implementarlas es necesario
+agregar las dependencias requeridas, y utilizando la palabra clave "suspend". Para poder ejercutar la funcion suspendida tenemos que utilizar las funciones como launch o async 
 
 3. ¿Cuál es el propósito del Dispatcher en las coroutines y cómo se elige
 uno adecuado para cada tarea?
